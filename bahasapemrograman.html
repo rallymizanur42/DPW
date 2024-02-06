@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>bahasapemrograman</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Halaman</a></li>
+                <li><a href="bahasapemrograman.html">Bahasa Pemrograman</a></li>
+                <li><a href="#">Tentang Saya</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--isi konten-->
+    <div class="content">
+        <h1>Bahasa pemrograman</h1>
+        <div class="content1">
+            <h2>Apa Itu Bahasa Pemrograman?</h2>
+            <p>Bahasa pemrograman merupakan media penghubung bagi programmer atau pengembang website untuk berkomunikasi dengan komputer. Bahasa pemrograman terdiri dari beberapa regulasi yang memungkinkan nilai string untuk diubah menjadi berbagai metode dalam menghasilkan machine coding, bahasa pemrograman visual, elemen grafis, dan semacamnya.
+            Saat ini, pengembangan bahasa pemrograman harus dapat memecahkan masalah menggunakan tingkat abstraksi yang lebih tinggi. Awal penciptaan bahasa pemrograman adalah bahasa sederhana dari hardware sebagai perintah ke komputer.
+            Seiring dengan berkembangnya teknologi, fitur baru bahasa pemrograman semakin banyak sehingga programmer dapat mengekspresikan ide-ide yang lebih kompleks untuk memberi instruksi komputasi.</p>
+            <h2>Fungsi Bahasa Pemrograman</h2>
+            <p>Fungsi dari bahasa pemrograman adalah untuk menulis program komputer, dengan cara memberikan instruksi kegiatan komputasi. Bahasa pemrograman dapat mengatur kontrol perangkat internal ke perangkat eksternal. Bahasa pemrograman memungkinkan manusia untuk mengkomunikasikan instruksi ke mesin.
+            Bahasa pemrograman dapat mengkomunikasikan keinginan pengguna komputer secara presisi. Tentu berbeda dengan bahasa antara manusia ke komputer, di mana mungkin ada ambiguitas perintah. Komputer yang pasti menjalankan perintah sesuai harus dapat menerima kode yang tepat dan di sinilah peran seorang programmer dalam mengoperasikan bahasa pemrograman.
+            Kebutuhan akan bahasa pemrograman sangat tinggi karena kebutuhan perintah ke komputer yang lebih kompleks. Programmer harus dapat memberi perintah sederhana untuk mengurangi kadar kerumitan yang akan diterima komputer, yaitu melalui bahasa pemrograman.</p>    
+        </div>
+        <div class="content2">
+            <h2>Jenis-Jenis Bahasa Pemrograman</h2>
+            <h3>1.JavaScript</h3>
+            <p>Bahasa pemrograman yang satu ini adalah yang terpopuler untuk berbagai situs. Selain mudah dipelajari, JavaScript juga menjadi bahasa pemrograman yang paling inti dan pasti digunakan. Semua programmer pemula wajib mempelajarinya.</p>
+            <h3>2.Visual Basic</h3>
+            <p>Visual Basic adalah produk Microsoft, di mana bahasa pemrograman ini memiliki karakter event driven. Sesuai namanya, bahasa pemrograman ini adalah yang paling dasar, di mana perintah mudah dapat dimengerti oleh komputer. Visual Basic digunakan untuk aplikasi yang sangat sederhana.</p>
+            <h3>3.Python</h3>
+            <p>Python sering menjadi bahasa pemrograman untuk otomatisasi data dan analisis untuk situs web dan perangkat lunak. Karakternya sangat umum sehingga dapat digunakan dalam pembuatan program yang berbeda-beda.</p>
+            <h3>4.HTML</h3>
+            <p>Bahasa pemrograman ini adalah yang paling standar. Bahkan, pemula pun dapat membuat website dengan mudah dengan jenis bahasa ini.</p>
+            <h3>5.PHP</h3>
+            <p>PHP digunakan sebagai bahasa pemrograman untuk situs interaktif dan desain dinamis. PHP digunakan sangat masif oleh para web developer. Selain gratis, PHP juga efisien.</p>
+            <h3>6.ASP</h3>
+            <p>Singkatan dari Active Server Pages, ASP merupakan teknologi side-server, di mana teknologi ini memungkinkan server internet menjalankan kode komputer.</p>
+            <h3>7.CSS</h3>
+            <p>Bahasa pemrograman ini memberi style pada dokumen HTML. Maksudnya, CSS dapat mendeskripsikan bagaimana elemen HTML harus tampil.</p>
+            <h3>8.Perl</h3>
+            <p>Awal pengembangan bahasa pemrograman ini adalah manipulasi teks. Saat ini, Perl digunakan untuk ragam tugas seperti administrasi sistem, pengembangan web, GUI pemrograman jaringan, dan banyak lagi.</p>
+            <h3>9.XML</h3>
+            <p>Singkatan dari Extensible Markup Language, XML merupakan bahasa markup yang berfungsi menyimpan dan memindah data.</p>
+            <h3>10.SQL</h3>
+            <p>Structured Query Language adalah bahasa pemrograman yang terkait database, di mana tujuannya adalah menyimpan, mengambil, mengelola, dan memanipulasi data dalam database system management.</p>
+        </div>       
+    </div>
+    
+</body>
+</html>
+
+<!--css halaman bahasa pemrograman-->
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(bg1.jpg);
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        overflow-x: hidden;
+        background-attachment: fixed;
+    }
+    .nav{
+        width: 85%;
+        margin: auto;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+    }
+    .nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .nav ul li ::after{
+        content: '';
+        height: 3px;
+        width: 0;
+        background: #6DB9EF;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: width 0.5s;
+    }
+    .nav ul li:hover ::after{
+        width: 100%;
+    }
+    .content {
+        width: 85%;
+        text-align: justify; /* Justifikasi teks */
+        margin: 20px auto; /* Atur margin secara otomatis */
+        
+    }
+    .content .content1 {
+        border: 5px double #00fffc;
+    }
+    .content .content2 {
+        border: 5px double #00fffc ;
+        background-origin: padding-box;
+    }
+    .content h1 {
+        margin-top: 30px; /* Ruang atas untuk h1 */
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    /* Gaya tambahan untuk h2, h3, dan p */
+    .content h2, .content h3, .content p {
+        margin-bottom: 10px;
+    }
+</style>
